@@ -1,0 +1,165 @@
+body{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: rgb(24, 75, 77);
+    text-align: center;
+}
+
+#title{
+    padding: 20px 0px 20px 0px;
+    color: white;
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(245, 210, 158);
+    padding: 20px 0px 20px 0px;
+}
+
+#list-box{
+    list-style: none;
+    margin-left: 625px;
+}
+
+a{
+    background-color: rgb(245, 210, 158);
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+a:hover{
+    background-color: aliceblue;
+}
+
+aside{
+    width: 285px;
+    height: 820px;
+    float: left;
+    background-color: cadetblue;
+    padding: 20px;
+    margin: 50px 50px;
+    border: solid 1px black;
+    border-radius: 10px;
+    color: aliceblue;
+    text-align: justify;
+}
+
+h2{
+    color: black;
+    text-align: left;
+}
+
+#img-aside{
+    width: 250px;
+    padding-top: 10px;
+}
+
+main{
+    width: 880px;
+    float: left;
+    background-color: cadetblue;
+    padding: 20px;
+    margin: 50px 50px;
+    border: solid 1px black;
+    border-radius: 10px;
+    color: aliceblue;
+    text-align: justify;
+}
+
+table{
+    color: black;
+    background-color: blanchedalmond;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr, th, td{
+    border: solid 2px black;
+}
+
+th{
+    background-color: burlywood;
+}
+
+.first-cell{
+    background-color: chocolate;
+}
+
+ul{
+    color: black;
+}
+
+#section-list{
+    width: 600px;
+    margin: 0 auto;
+}
+
+footer{
+    color: black;
+    clear: both;
+    text-align: center;
+}
+
+/*---------------------------------------------------------------------------*/
+
+#option-form{
+    list-style: none;
+    margin-left: 590px;
+}
+
+form{
+    background-color: cadetblue;
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 50px 100px 20px 100px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+input[type="checkbox"]{
+    vertical-align: middle;
+}
+
+input[type="radio"]{
+    vertical-align: top;
+}
+
+.boxForm{
+    margin: 0px 0px 20px 0px;
+}
+
+#name{
+    float: left;
+}
+
+#surname{
+    float: right;
+}
+
+#pw{
+    float: left;
+}
+
+#country{
+    float: right;
+}
+
+#clothes{
+    clear: both;
+}
+
+#termsConditions{
+    padding-top: 20px;
+}
+
+#send{
+    text-align: center;
+    margin-top: 40px;
+}
