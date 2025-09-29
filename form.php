@@ -63,7 +63,7 @@
                 <div>
                     <?php
                         foreach($arrayContaminacion as $condicion=>$texto){
-                            echo "<input type='checkbox' name='condition[]' value='".$condicion."'";
+                            echo "<input type='checkbox' name='condition[]' value='".$condicion."'>";
                             echo "<label>".$texto."</label>";
                         }
                     ?>
@@ -74,7 +74,7 @@
                 <h3>¿Qué transporte usas más?</h3>
                 <?php
                     foreach($arrayTransporte as $transporte=>$texto){
-                        echo "<input type='radio' name='transport' value='".$transporte."'";
+                        echo "<input type='radio' name='transport' value='".$transporte."'>";
                         echo "<label>".$texto."</label>";
                     }
                 ?>
@@ -94,4 +94,5 @@
             <p>© 2025 Adrián Risco Sánchez - Impacto del cambio climático en las personas</p>
         </footer>
     </body>
+
 </html>
