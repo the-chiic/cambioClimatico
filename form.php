@@ -26,7 +26,7 @@
             </ul>
         </nav>
 
-        <form action="recogerBien.php" method="get">
+        <form action="recogerBien.php" method="post">
             <div class="boxForm" id="name">
                 <label>Nombre:</label>
                 <input type="text" name="name" placeholder="Adrián">
@@ -96,3 +96,4 @@
     </body>
 
 </html>
+
