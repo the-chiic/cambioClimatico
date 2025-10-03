@@ -1,18 +1,18 @@
 body{
-    background-color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;    /*Color del fondo*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   /*Fuente de la letra*/
     margin: 0 auto;     /*Para centrar cajas*/
 }
 
 header{
     background-color: rgb(24, 75, 77);
-    text-align: center;
+    text-align: center;     /*Alineado al centro el texto*/
 }
 
 #title{
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;     /*Padding arriba y abajo se puede poner también padding: 20px 0px*/
     color: white;
-    margin: 0;
+    margin: 0;      /*Quito el margin por defecto y lo pongo a 0*/
 }
 
 nav{
@@ -35,11 +35,11 @@ ul{
 
 #news{
     padding: 0px 288px;
-    width: 100px;
+    width: 100px;       /*Tamaño que ocupa*/
 }
 
 #board{
-    padding-right: 288px;
+    padding-right: 288px;   /*Padding solo a la derecha*/
     width: 80px;
 }
 
@@ -51,9 +51,9 @@ ul{
 .nav-a{
     background-color: rgb(245, 210, 158);
     color: black;
-    padding: 5px;
-    font-weight: bold;
-    text-decoration: none;
+    padding: 5px;   /*Pading en todos lados a 5px*/
+    font-weight: bold;  /*Negrita*/
+    text-decoration: none;  /*Quitar línea de subrayado*/
     transition: color 0.3s, background-color 0.3s;  /*Tiempo que tarda en hacer la animación*/
 }
 
@@ -64,7 +64,7 @@ ul{
 aside{
     width: 285px;
     height: 820px;
-    float: left;
+    float: left;    /*Flotado a la izquierda*/
     background-color: cadetblue;
     padding: 20px;
     margin: 50px 50px;
@@ -91,7 +91,7 @@ h3{
 }
 
 #curiosity-title{
-    padding-top: 50px;
+    padding-top: 50px;  /*Padding arriba*/
 }
 
 main{
@@ -148,7 +148,7 @@ footer{
 }
 
 #news-text-container{
-    float: none;        /*Le quito que sea float para poder despues centrarlo*/
+    float: none;        /*Le quito que sea float para poder después centrarlo*/
     margin: 50px auto;
 }
 
@@ -158,7 +158,7 @@ footer{
 }
 
 .normal-a:hover{
-    text-decoration: underline;
+    text-decoration: underline; /*Texto subrayado*/
 }
 
 #source{
@@ -177,7 +177,7 @@ footer{
 /*----------------------------------BOARD----------------------------------------*/
 
 #news-board{
-    padding-right: 285px;
+    padding-right: 285px;   /*Padding a la derecha*/
     width: 100px;
 }
 
@@ -243,7 +243,7 @@ input[type="radio"]{
 }
 
 #surname{
-    float: right;
+    float: right;   /*Flotado a la derecha*/
 }
 
 #pw{
